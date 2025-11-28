@@ -38,9 +38,36 @@ export const changelogData = [
       items: [
         {
           date: "Oct . 18",
-          tag: "IMPROVEMENT",
+          tag: "Feature",
           title:
-            "Improved repository indexing performance for large organizations",
+            "UI Interface Designed for Sign up and Sign In page.",
+          description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuereconsectetur est at lobortis. Aenean eu leo quam. Pellentesque ornaresem lacinia quam venenatis vestibulum. Curabitur blandit tempusporttitor.",
+          category: "Frontend",
+          
+        },
+        {
+          date: "Oct . 19",
+          tag: "Feature",
+          title:
+            "UI Interface Designed for Verify OTP page and updated the flow.",
+          description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuereconsectetur est at lobortis. Aenean eu leo quam. Pellentesque ornaresem lacinia quam venenatis vestibulum. Curabitur blandit tempusporttitor.",
+          category: "Frontend",
+          
+        },
+        {
+          date: "Oct . 20",
+          tag: "Feature",
+          title:
+            "Integrated sign-in,singup,google authentication api with frontend and tested",
+          description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuereconsectetur est at lobortis. Aenean eu leo quam. Pellentesque ornaresem lacinia quam venenatis vestibulum. Curabitur blandit tempusporttitor.",
+          category: "Frontend",
+          
+        },
+        {
+          date: "Oct . 21",
+          tag: "Feature",
+          title:
+            "Sign up, Sign in , OTP , Google sign  integration ",
           description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuereconsectetur est at lobortis. Aenean eu leo quam. Pellentesque ornaresem lacinia quam venenatis vestibulum. Curabitur blandit tempusporttitor.",
           category: "Frontend",
           

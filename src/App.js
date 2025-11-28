@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='bg-[#010409] relative flex flex-col jusitfy-center items-center min-h-screen container max-w-[1920px] mx-auto'>
       <img src='/grid.svg' alt='' className='w-full mt-10 absolute top-0 left-0 w-full  object-cover '/>
-      <div className='flex flex-col gap-10 w-[80%]   py-10  justify-center items-center '>
+      <div className='flex flex-col gap-10 w-[80%]   py-10  justify-center items-center z-20'>
        <div  className="h-px w-full my-4 bg-gradient-to-r from-transparent via-[#EAE4F8] to-transparent "/>
         <div className='text-white text-[40px] text-left self-start font-[600]'>ChangeLog</div>
         <Category active={activeCategory} setActive={setActiveCategory} />
