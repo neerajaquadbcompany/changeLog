@@ -71,7 +71,7 @@ const ChangeLogDetails = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black flex justify-center items-center">
+      <div className="min-h-screen bg-black flex justify-center items-center">
         <div className="animate-spin rounded-full h-12 w-12 border-4 border-gray-500 border-t-white"></div>
       </div>
     );
@@ -79,7 +79,7 @@ const ChangeLogDetails = () => {
 
   if (error || !task) {
     return (
-      <div className="min-h-screen hide-scrollbar bg-gradient-to-b from-gray-900 to-black flex justify-center items-center">
+      <div className="min-h-screen hide-scrollbar bg-black flex justify-center items-center">
         <div className="text-white text-center">
           <h2 className="text-2xl font-bold mb-4">{error || "Task not found"}</h2>
           <button
