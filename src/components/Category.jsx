@@ -11,7 +11,7 @@ const categories = [
 
 const Category = ({ active, setActive }) => {
   return (
-    <div className="flex gap-10 items-center text-[#89949e]">
+    <div className="flex gap-10 items-center text-[#89949e] hide-scrollbar">
       {categories.map((item) => (
         <motion.div
           key={item.key}
