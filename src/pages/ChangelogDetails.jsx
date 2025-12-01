@@ -109,7 +109,7 @@ const ChangeLogDetails = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className={`bg-gray-800/50 backdrop-blur-sm rounded-xl border-l-4 ${getCategoryColor(task.category)} overflow-hidden`}
+          // className={`bg-gray-800/50 backdrop-blur-sm rounded-xl border-l-4 ${getCategoryColor(task.category)} overflow-hidden`}
         >
           <div className="p-6 md:p-8">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
@@ -131,7 +131,7 @@ const ChangeLogDetails = () => {
               </div>
             </div>
             <div className="mb-8">
-              <h3 className="text-lg font-semibold text-gray-300 mb-3">Summary</h3>
+              <h3 className="text-lg font-semibold text-gray-300 mb-3">Title</h3>
               <p className="text-gray-400 leading-relaxed">{task.short_description}</p>
             </div>
             
@@ -152,7 +152,7 @@ const ChangeLogDetails = () => {
                     <p className="text-white">{task.reason || "Not specified"}</p>
                   </div>
                   <div>
-                    <p className="text-sm text-gray-400 mb-1">New Deadline</p>
+                    <p className="text-sm text-gray-400 mb-1">Time Line Extension</p>
                     <p className="text-red-300 font-semibold">
                       {task.final_date ? formatDate(task.final_date) : "Not specified"}
                     </p>
