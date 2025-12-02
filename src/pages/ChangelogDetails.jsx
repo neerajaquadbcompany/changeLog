@@ -111,6 +111,7 @@ const ChangeLogDetails = () => {
           transition={{ duration: 0.5 }}
           // className={`bg-gray-800/50 backdrop-blur-sm rounded-xl border-l-4 ${getCategoryColor(task.category)} overflow-hidden`}
         >
+          <img src='/logo.png' alt='' className="w-full"/>
           <div className="p-6 md:p-8">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
               <div>
@@ -130,6 +131,7 @@ const ChangeLogDetails = () => {
                 </span>
               </div>
             </div>
+            
             <div className="mb-8">
               <h3 className="text-lg font-semibold text-gray-300 mb-3">Title</h3>
               <p className="text-gray-400 leading-relaxed">{task.short_description}</p>
