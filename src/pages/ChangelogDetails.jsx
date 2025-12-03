@@ -98,7 +98,7 @@ const ChangeLogDetails = () => {
       <div className="max-w-4xl mx-auto px-4 py-8">
        
         <button
-          onClick={() => navigate("/changelog")}
+          onClick={() => navigate("/")}
           className="flex items-center gap-2 text-gray-400 hover:text-white mb-8 transition-colors group"
         >
           <IoArrowBack className="text-lg group-hover:-translate-x-1 transition-transform" />
