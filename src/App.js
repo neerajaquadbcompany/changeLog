@@ -10,21 +10,15 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route
-          path="/changelog"
-          element={
-            <ProtectedRoute>
-              <ChangeLogpage />
-            </ProtectedRoute>
-          }
-        />
+        <Route path="/" element={<ChangeLogpage />} />
+        <Route path="/login" element={<Login />} />
+
         <Route
           path="/changelog/:id"
           element={
-            <ProtectedRoute>
+            
               <ChangeLogDetails />
-            </ProtectedRoute>
+            
           }
         />
       </Routes>
