@@ -193,7 +193,7 @@ export default function NewPopup({ closePopup }) {
         initial={{ scale: 0.9, y: 20, opacity: 0 }}
         animate={{ scale: 1, y: 0, opacity: 1 }}
         exit={{ scale: 0.9, y: 20, opacity: 0 }}
-        transition={{ type: "spring", damping: 25 }}
+        // transition={{ type: "spring", damping: 25 }}
         className="bg-[#111418] p-6 md:p-8 rounded-2xl w-full max-w-md mt-52 text-white border border-gray-800 shadow-2xl"
       >
        

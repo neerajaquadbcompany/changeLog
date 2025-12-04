@@ -52,7 +52,7 @@ export default function Login() {
       }
 
       if (data.user.role === "admin") {
-        navigate("/changelog");
+        navigate("/");
       } else {
         alert("Access Denied! Only admin can login.");
       }
