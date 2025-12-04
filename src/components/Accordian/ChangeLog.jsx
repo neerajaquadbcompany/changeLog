@@ -164,7 +164,7 @@ const ChangeLog = ({ activeCategory }) => {
                   </motion.div>
                 )}
               </AnimatePresence>
-              <div className="h-px w-full my-4 bg-gradient-to-r from-transparent via-[#EAE4F8] to-transparent opacity-50 group-hover:opacity-100"></div>
+              {!(openMonth === monthIdx) &&(<div className="h-px w-full my-4 bg-gradient-to-r from-transparent via-[#EAE4F8] to-transparent opacity-50 group-hover:opacity-100"></div>)}
             </div>
           );
         })
